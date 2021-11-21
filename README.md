@@ -53,3 +53,11 @@ python manage.py createsuperuser
 ```
 python3 manage.py shell
 ```
+
+
+# Development
+To run dev server:
+```
+python manage.py runserver
+```
+
