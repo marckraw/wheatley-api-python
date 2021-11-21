@@ -9,3 +9,9 @@ def add_todo(request):
 def show_todo(request, todo_id):
     print(f"Passed todo id: {todo_id}")
     return HttpResponse("Showing todo...")
+
+
+def show_by_year(request, year):
+    print(f"Year is: {year}")
+
+    return HttpResponse(f"Year is: {year}")
