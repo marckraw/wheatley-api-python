@@ -61,3 +61,7 @@ To run dev server:
 python manage.py runserver
 ```
 
+## Create run confgiuration in Pycharm:
+![image](https://user-images.githubusercontent.com/8228270/142775105-2946b706-27f2-4ca9-a867-8a18916bb9f7.png)
+
+
