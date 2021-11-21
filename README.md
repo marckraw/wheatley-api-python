@@ -28,7 +28,7 @@ pip freeze > requirements.txt
 ## Some cmds
 
 
-creating apps
+creating django apps
 ```
 python manage.py startapp nameoftheapp
 ```
