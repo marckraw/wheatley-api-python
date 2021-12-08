@@ -28,7 +28,7 @@ pip freeze > requirements.txt
 ## Some cmds
 
 
-creating apps
+creating django apps
 ```
 python manage.py startapp nameoftheapp
 ```
@@ -53,3 +53,15 @@ python manage.py createsuperuser
 ```
 python3 manage.py shell
 ```
+
+
+# Development
+To run dev server:
+```
+python manage.py runserver
+```
+
+## Create run confgiuration in Pycharm:
+![image](https://user-images.githubusercontent.com/8228270/142775105-2946b706-27f2-4ca9-a867-8a18916bb9f7.png)
+
+
