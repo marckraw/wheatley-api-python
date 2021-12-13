@@ -1,17 +1,20 @@
-from django.http import HttpResponse
-from django.shortcuts import render
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
 
 # Create your views here.
+@api_view(["POST"])
 def add_todo(request):
-    return HttpResponse("Adding todo")
+    return Response("Adding todo")
 
 
+@api_view(["GET"])
 def show_todo(request, todo_id):
     print(f"Passed todo id: {todo_id}")
-    return HttpResponse("Showing todo...")
+    return Response("Showing todo...")
 
 
+@api_view(["GET"])
 def show_by_year(request, year):
     print(f"Year is: {year}")
 
-    return HttpResponse(f"Year is: {year}")
+    return Response(f"Year is: {year}")
