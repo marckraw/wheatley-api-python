@@ -52,6 +52,10 @@ def getNotes(request):
 
 @api_view(['GET'])
 def getNote(request, pk): #primary key
+
+    param = request.GET.get("id")
+    print("This is query param", param)
+
     note = Note.objects.get(id=pk)
     serializer = NoteSerializer(note, many=False) # do we want to serialize multiple objects or single
 
