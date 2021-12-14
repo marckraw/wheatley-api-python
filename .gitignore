@@ -60,6 +60,7 @@ coverage.xml
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+*.pyc
 
 # Flask stuff:
 instance/
@@ -130,3 +131,4 @@ dmypy.json
 
 # Others
 .idea
+.DS_Store
