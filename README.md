@@ -7,6 +7,13 @@ API for wheatley app
 - Django REST Framework
 
 
+## Scripts in run.sh
+```shell
+sh ./run.sh start - run python server
+sh ./run.sh install - pip install -r requirements.txt
+```
+
+
 
 # How to, all python django stuff
 To go inside virtual env
