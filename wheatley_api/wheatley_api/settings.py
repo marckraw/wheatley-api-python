@@ -50,6 +50,7 @@ INSTALLED_APPS = [
 
     'todos.apps.TodosConfig',
     'api.apps.ApiConfig',
+    'v1.apps.V1Config',
 
     'rest_framework',
 
