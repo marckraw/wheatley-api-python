@@ -1,10 +1,17 @@
-# wheatley-api
+# wheatley-api 0.0.1
 API for wheatley app
 
 
 ## Stack
 - Python 3
 - Django REST Framework
+
+
+## Scripts in run.sh
+```shell
+sh ./run.sh start - run python server
+sh ./run.sh install - pip install -r requirements.txt
+```
 
 
 
